@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <div id='red_anvelope' className='from-red-400 to-red-600 bg-gradient-to-tr w-[300px] h-[500px] outline outline-4 outline-red-700 rounded-md relative shadow-lg' onClick={handleToggleLetter}>
-        <div id="anvelope-white" className="w-full h-1/5 bg-gray-50 rounded-b-3xl absolute flex justify-center items-end">
-          <div id="anvelope-white" className="w-4/5 h-3/4 bg-gray-200 border-gray-300 border-t-4 border-x-4 overflow-hidden rounded-t-md text-black flex-col flex items-center p-4">
+        <div id="anvelope-white" className="w-full h-1/5 bg-gradient-to-tr from-gray-50 to-gray-200 rounded-b-3xl absolute flex justify-center items-end">
+          <div id="anvelope-white" className="w-4/5 h-3/4 bg-gradient-to-tr from-gray-200 to-gray-300 border-gray-400 border-t-4 border-x-4 overflow-hidden rounded-t-md text-black flex-col flex items-center p-4">
             <h1 className='text-2xl'>Letter</h1>
           </div>
         </div>        
@@ -24,7 +24,7 @@ function App() {
         </div>
       </div>
 
-      {toggleLetter && <div id="letter" className="absolute bg-gray-200 border-gray-300 border-4 w-[400px] h-[600px] rounded-xl opacity-95 text-black flex flex-col p-8 items-center justify-between shadow-2xl shadow-yellow-400">
+      {toggleLetter && <div id="letter" className="absolute bg-gray-200 border-gray-400 border-4 w-[400px] h-[600px] rounded-xl opacity-95 text-black flex flex-col p-8 items-center justify-between shadow-2xl shadow-yellow-400">
         <h1 className='text-4xl py-4'>Letter</h1>
         <div className="w-full h-4/5 text-xl p-4 flex flex-col items-center">
           <p className='text-center'>
