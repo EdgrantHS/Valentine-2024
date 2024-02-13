@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#red_anvelope:hover #anvelope-flap {
+  transform: rotateX(-180deg);
+}
+
+#anvelope-flap {
+  transform-origin: top;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Animation for letter appearance and disappearance */
+#letter {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform-origin: center;
+}
