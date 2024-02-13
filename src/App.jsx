@@ -24,10 +24,16 @@ function App() {
         </div>
       </div>
 
-      {toggleLetter && <div id="letter" className="absolute bg-gray-200 border-gray-300 border-4 w-[400px] h-[600px] rounded-xl opacity-90 text-black flex flex-col p-8 items-center justify-between shadow-2xl shadow-yellow-400">
-        <h1 className='text-2xl'>Letter</h1>
-        <div className="w-full h-4/5">
-          Hi
+      {toggleLetter && <div id="letter" className="absolute bg-gray-200 border-gray-300 border-4 w-[400px] h-[600px] rounded-xl opacity-95 text-black flex flex-col p-8 items-center justify-between shadow-2xl shadow-yellow-400">
+        <h1 className='text-4xl py-4'>Letter</h1>
+        <div className="w-full h-4/5 text-xl p-4 flex flex-col items-center">
+          <p className='text-center'>
+            Helo Leciiiiiiiii, Happy Valentines day. Sedih banget gak bisa ketemu gara gara kamu di bangka. Aku harap kamu suka website ini YAY.
+          </p>
+        <div id="dragon" className="w-[200px] h-[200px] absolute bottom-1/4 bg-rose-300 rounded-full flex justify-center items-center border-4 border-rose-500 -mb-8">
+            <img src="https://www.svgrepo.com/show/532473/heart.svg" alt="heart" className='h-3/5 w-3/5' />
+          </div> 
+
         </div>
         <button onClick={handleToggleLetter} className='bg-red-500 text-white p-2 rounded-md hover:bg-red-700 active:bg-red-800'>Close</button>
       </div>}
