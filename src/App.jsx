@@ -28,7 +28,7 @@ function App() {
         <h1 className='text-4xl py-4'>CONGRATZZZ</h1>
         <div className="w-full h-4/5 text-xl p-4 flex flex-col items-center">
           <p className='text-center'>
-            Haloooooooo, SELAMAT BANGET. kamu udah keterima Divisi Acara PPMB!! 🎉🎉🎉 keren banget lhooooo
+            Haloooooooo, SELAMAT BANGET. kamu udah keterima jadi Asisten Digilab!! 🎉🎉🎉 keren banget lhooooo
           </p>
         <div id="dragon" className="w-[200px] h-[200px] absolute bottom-1/4 bg-rose-300 rounded-full flex justify-center items-center border-4 border-rose-500 -mb-14">
             <img src="https://www.svgrepo.com/show/532473/heart.svg" alt="heart" className='h-3/5 w-3/5' />
